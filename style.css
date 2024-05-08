@@ -45,17 +45,20 @@ a:hover{
 main .hero{
     display: flex;
     height: fit-content;
-    margin: 0 100px 0 100px; 
-
+    margin: 0 20px 0 20px; 
+    /* border: 1px solid black; */
 }
 .data{
-    width: 100%;
-    margin-left: 30px;
+    /* width: 100%; */
+    margin-left: 20px;
+    /* border: 1px solid black; */
 }
 .items{
     display: flex;
     margin: 0;
-    flex-direction: column;
+    padding: 0;
+    /* border: 1px solid black; */
+    /* flex-direction: column; */
     flex-wrap: wrap;
 }
 .items h1{
@@ -64,22 +67,25 @@ main .hero{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     /* margin-right: 50px; */
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
+    margin: 0;
     width: 100%;
     text-align: center;
 }
 .items ul{
     padding: 0;
+    /* border: 1px solid black; */
     list-style-type: none;
 }
 .items li a{
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: 20px;
 }
 .items li{
-    padding-top: 10px;
+    /* border: 1px solid black; */
+    padding-top: 30px;
 }
 .items a{
     text-decoration: none;
