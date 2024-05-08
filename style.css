@@ -44,13 +44,15 @@ a:hover{
 
 main .hero{
     display: flex;
-    height: fit-content;
+    /* height: fit-content; */
     margin: 0 20px 0 20px; 
     /* border: 1px solid black; */
 }
 .data{
-    /* width: 100%; */
+    width: 100%;
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
     /* border: 1px solid black; */
 }
 .items{
@@ -92,33 +94,33 @@ main .hero{
 }
 .hero-images{
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
+    /* align-items: center; */
+    justify-content: center;
 }
 .laptop-img{
-    margin: 50px 0 0 50px;
+    margin: 30px 0 0 0;
 }
 .laptop-img img{
-    width: 800px;
+    width: 700px;
     border-radius: 50px;
 }
 .sort-img img{
-    width: 350px;
+    width: 330px;
     border-radius: 50px;
 }
 .sort-img{
-    margin: 50px 0 0 10px;
+    margin: 30px 0 0 10px;
 }
 .search-bar {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 20px;
+    margin: 20px 0 0 20px;
 }
 
 .search-bar input[type="text"] {
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #494949;
     border-radius: 5px;
     width: 100%;
 }
@@ -126,7 +128,7 @@ main .hero{
 .search-bar button {
     padding: 5px 10px;
     border: none;
-    background-color: #007bff;
+    background-color: #197e00;
     color: white;
     border-radius: 5px;
     cursor: pointer;
