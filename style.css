@@ -461,7 +461,14 @@ footer {
     .footer-bottom{
         width: 100%;  
     }
+    .footer-logo span{
+        display: flex;
+        margin-left: 30px;
+        font-weight: bold;
+    }
     .footer-icons{
+        display: flex;
+        flex-direction: row-reverse;
         width: 100%;
     }
 }
