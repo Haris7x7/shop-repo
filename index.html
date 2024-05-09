@@ -51,6 +51,24 @@
                 </div>
             </div>
         </div>
+        
+        <button id="navbarToggle"><i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+<nav id="navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">FAQs</a></li>
+    </ul>
+    <ul>
+        <li><a href="#">Sign In</a></li>
+        <li><span>or</span></li>
+        <li><a href="#">Register</a></li>
+    </ul>
+</nav>
+
     </header>
     <main>
         <section class="hero">
@@ -334,4 +352,14 @@
             </div>
     </footer>
 </body>
+<script>
+    document.getElementById('navbarToggle').addEventListener('click', function() {
+    var navbar = document.getElementById('navbar');
+    if (navbar.style.display === "none") {
+        navbar.style.display = "block";
+    } else {
+        navbar.style.display = "none";
+    }
+});
+</script>
 </html>

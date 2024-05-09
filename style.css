@@ -38,6 +38,26 @@ a:hover{
 .contact h1,p{
     margin: 0px;
 }
+
+#navbar {
+    display: none;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: block;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
 /* HEADER ENDS FROM HERE */
 
 /* HERO SECTION Starts FROM HERE */
@@ -345,7 +365,10 @@ footer {
 
 /* responsive */
 @media screen and (max-width: 786px) {
-    header{
+    header .nav1{
+        display: none;
+    }
+    header .nav2{
         display: none;
     }
     .hero .items{
@@ -357,10 +380,11 @@ footer {
     .laptop-img{
         margin: 0;
         padding: 0;
-        border: 1px solid black;
     }
     .laptop-img img{
-        width: 200px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
     /* body{
         width: 100%;
